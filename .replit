@@ -1,2 +1,3 @@
-language = "nodejs"
-run = "npm i && node program"
+language = "node js"
+run = "node program"
+
