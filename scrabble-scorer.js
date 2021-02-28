@@ -75,7 +75,7 @@ let scrabbleScore = function(word){
   for(let i= 0; i < word.length; i++){
      newPoints += newPointStructure[word[i]];
   }
-  return newPoints;
+   return newPoints;
 }
 
 let newPointStructure = transform(oldPointStructure);
@@ -89,9 +89,9 @@ function transform(oldPointStructure) {
       key = key.toLowerCase();
       newScrable[`${key}`] = Number(item); 
     }
-    return newScrable;
   }
- 
+    return newScrable;
+  
 };
 const scoringAlgorithms = [
 {name:"Simple Score", description:"Each letter is worth 1 point", scoringFunction:simpleScore},
