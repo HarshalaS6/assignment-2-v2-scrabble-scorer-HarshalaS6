@@ -28,7 +28,6 @@ function oldScrabbleScorer(word) {
 
 function initialPrompt() {
    console.log("Let's play some scrabble!");
-   
 }; 
 
 let simpleScore = function(word){
